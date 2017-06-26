@@ -1,78 +1,22 @@
-[![Build Status](https://travis-ci.org/selfup/hyperapp-one.svg?branch=master)](https://travis-ci.org/selfup/hyperapp-one)
+# Conway's Game of Life in HyperApp
 
-# [HyperApp](https://github.com/hyperapp/hyperapp) *JSX* Boilerplate Repo
+An implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in [HyperApp](https://github.com/hyperapp/hyperapp)
 
-### To get started:
+## Intall
 
 ```bash
+git clone https://github.com/applefreak/hyperapp-game-of-life
+cd hyperapp-game-of-life
 npm install
 npm start
 ```
 
-Visit: [webpack-dev-server](http://localhost:8080/webpack-dev-server/index.html)
+## Why
 
-This will reload as you save new code :smile:
+I came across a very lightwight frontend framework called HyperApp, and I want to try it out! 
 
-*Now go code something awesome!*
+Turned out, it's _Extremely_ easy to use! I'm in love!
 
-***
+## License
 
-### To wipe commit history:
-
-**Make sure you are in the boilerplate root:**
-
-You can either:
-
-```bash
-npm run wipe
-```
-
-And then add your remote: `git remote add origin <ssh_or_https_url>`
-
-**OR** 
-
-```bash
-rm -rf .git
-git init
-git add .
-git commit -m "initial commit"
-```
-
-And then add your remote: `git remote add origin <ssh_or_https_url>`
-
-Then work as normal :smile:
-
-***
-
-### Deploy to GitHub Pages:
-
-**First Time**:
-
-```bash
-git checkout -b gh-pages
-npm run build
-git add . && git commit -m "built"
-git push origin gh-pages
-```
-
-**Every time after that**:
-
-```bash
-git checkout gh-pages
-git merge master
-npm run build
-git add . && git commit -m "built"
-git push origin gh-pages
-```
-
-**Now go visit**:
-
-(No custom domain) -> `<your_username>.github.io/<your_repo_name>`
-
-(Custom domain) -> `<custom_domain>/<your_repo_name>`
-
-***
-
-### Website:
-
-[Over Here!](http://selfup.me/hyperapp-one)
+[MIT](https://poyu.mit-license.org/)
