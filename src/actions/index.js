@@ -1,8 +1,10 @@
 import utils from '../utils'
+import logic from '../logic'
 
 export default {
   game: {
-    init: ({cells}) => ({cells: Array(50).fill(Array(50).fill(0))})
+    init: () => ({cells: Array(50).fill(Array(50).fill(0))}),
+    nextGen: ({ cells }) => ({cells: logic.nextGen(cells)})
   },
   cell: {
     toggle: (state , _, {row, col} ) => {

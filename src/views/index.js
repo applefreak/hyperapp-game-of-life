@@ -8,5 +8,6 @@ export default (state, { game, cell, debug}) => (
     <Controls actions={game} />
     <Board cells={state.cells} toggleCell={cell.toggle} />
     <button onclick={() => debug.logState()}>Debug</button>
+    <button onclick={() => game.nextGen()}>NextGen</button>
   </div>
 )
