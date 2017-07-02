@@ -14,7 +14,7 @@ export default {
         window.clearInterval(interval)
         return {started: false, interval: null}
       } else {
-        let interval = window.setInterval(game.nextGen, 120)
+        let interval = window.setInterval(game.nextGen, 200)
         return {started: true, interval}
       }
     }

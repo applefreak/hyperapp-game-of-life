@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
 body {
-  font-family: sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +29,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .board {
@@ -49,4 +52,5 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 0.07s ease-out;
 }
