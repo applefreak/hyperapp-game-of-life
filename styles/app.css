@@ -36,6 +36,12 @@ h1 {
   flex-wrap: wrap;
 }
 
+.row {
+  width: 800px;
+  height: 15px;
+  display: flex;
+}
+
 .cell {
   width: 15px;
   height: 15px;

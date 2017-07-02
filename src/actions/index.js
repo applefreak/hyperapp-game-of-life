@@ -1,10 +1,10 @@
 export default {
   game: {
-    init: ({cells}) => ({cells: Array(2500).fill(0)})
+    init: ({cells}) => ({cells: Array(50).fill(Array(50).fill(0))})
   },
   cell: {
-    toggle: ({ cells }, _, { id } ) => {
-      cells[id] = cells[id] ? 0 : 1
+    toggle: ({cells} , _, { id: {row, col} } ) => {
+      cells[row][col] = cells[row][col] === 1 ? 0 : 1
       return { cells }
     },
     set: ({ cells }, _, { id, val }) => {
