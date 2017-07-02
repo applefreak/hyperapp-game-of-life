@@ -1,3 +1,5 @@
 export default {
-  cells: []
+  cells: [],
+  started: false,
+  interval: null
 };
