@@ -6,7 +6,7 @@ An implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conwa
 
 ![Demo](http://i.imgur.com/UX7sf0Y.png)
 
-## Intall
+## Install
 
 ```bash
 git clone https://github.com/applefreak/hyperapp-game-of-life
