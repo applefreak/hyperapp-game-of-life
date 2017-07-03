@@ -4,6 +4,8 @@ An implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conwa
 
 [LIVE DEMO](http://game-of-hyperlife.surge.sh/)
 
+![Demo](http://i.imgur.com/UX7sf0Y.png)
+
 ## Intall
 
 ```bash
