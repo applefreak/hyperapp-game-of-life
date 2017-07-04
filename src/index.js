@@ -4,4 +4,8 @@ import state from './state';
 import view from './views';
 import events from './events'
 
-app({ state, actions, view, events });
+import devtools from 'hyperapp-redux-devtools';
+
+app({ state, actions, view, events,
+  mixins: [devtools()]
+ });
